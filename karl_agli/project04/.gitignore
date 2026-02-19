@@ -1,0 +1,25 @@
+# Java compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# Kotlin compiled files
+*.kts
+kotlin/
+
+# Go compiled binary
+prime_counter
+*.exe
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# macOS
+.DS_Store
+
+# Build output
+out/
+build/
