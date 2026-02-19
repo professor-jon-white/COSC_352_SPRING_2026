@@ -144,3 +144,5 @@ Speedup: 3.56x
 
 Karl Agli  
 COSC 352 - Spring 2026
+
+"Updated submission 2/19/26 - ready for review."
