@@ -6,7 +6,6 @@ This project compares the performance of single-threaded vs. multi-threaded prim
 - **Java**: JDK 11+
 - **Kotlin**: 1.6+ (kotlinc)
 
-## How to Run
+##How to Run
 1. Give execution permissions to the script:
-    bash
-   chmod +x run.sh
+bash chmod +x run.sh
