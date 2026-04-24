@@ -12,7 +12,9 @@ fn main() -> Result<(), Box<dyn Error>> {
 
     let file_path = &args[1];
 
-    let mut rdr = Reader::from_path(file_path)?;
+    let mut rdr = csv::ReaderBuilder::new()
+    .flexible(true)
+    .from_path(file_path)?;
 
     let headers = rdr.headers()?.clone();
 
