@@ -1,0 +1,11 @@
+[package]
+name = "bmore-visualize"
+version = "0.1.0"
+edition = "2021"
+description = "Baltimore City Open Data — Plotters visualization of CSV profiles and correlated data from projects 7 & 8"
+
+[dependencies]
+# Reuse csvprof (project 7) for streaming profile statistics
+csvprof = { path = "../project07/csvprof" }
+csv       = "1.3"
+plotters  = { version = "0.3", features = ["svg_backend", "bitmap_backend"] }
