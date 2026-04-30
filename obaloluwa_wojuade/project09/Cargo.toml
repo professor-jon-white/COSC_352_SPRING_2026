@@ -1,0 +1,13 @@
+[package]
+name = "baltimore-visualizations"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "baltimore-visualizations"
+path = "src/main.rs"
+
+[dependencies]
+plotters = { version = "0.3", features = ["bitmap_backend", "all_elements", "all_series"] }
+csvprof = { path = "../project07" }
+csv = "1"
