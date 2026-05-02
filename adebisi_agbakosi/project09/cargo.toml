@@ -1,0 +1,7 @@
+[dependencies]
+# ... existing dependencies
+plotters = "0.3"
+
+[[bin]]
+name = "viz"
+path = "src/viz.rs"
