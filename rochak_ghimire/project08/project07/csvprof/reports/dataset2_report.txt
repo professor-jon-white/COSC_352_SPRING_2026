@@ -1,0 +1,177 @@
+======================
+Column: X
+Type: Float
+Rows: 11805
+Nulls: 0 (0.00%)
+Unique: 11801
+Min: 1394085.13802639
+Max: 1445250.80537988
+Mean: 1416016.1669362113
+Median: 1412899.04528038
+Std Dev: 9139.82129710169
+Top values:
+  1414953.49688014: 2
+  1405183.40979305: 2
+  1412128.73218848: 2
+  1406812.48527506: 2
+  1406959.98104306: 1
+======================
+Column: Y
+Type: Float
+Rows: 11805
+Nulls: 0 (0.00%)
+Unique: 11803
+Min: 566208.284501731
+Max: 621353.766074061
+Mean: 595961.2625278179
+Median: 596165.128459305
+Std Dev: 7857.386022213949
+Top values:
+  598257.737134978: 2
+  597520.684803307: 2
+  600054.153161556: 1
+  595641.342105314: 1
+  592904.730124474: 1
+======================
+Column: OBJECTID
+Type: Integer
+Rows: 11805
+Nulls: 0 (0.00%)
+Unique: 11805
+Min: 9
+Max: 246997
+Mean: 78160.19398559933
+Median: 58316
+Std Dev: 64467.57341304902
+Top values:
+  25949: 1
+  45642: 1
+  30993: 1
+  742: 1
+  58306: 1
+======================
+Column: NoticeNum
+Type: Text
+Rows: 11805
+Nulls: 0 (0.00%)
+Unique: 11805
+Top values:
+  2590633A: 1
+  2065501A: 1
+  815097A: 1
+  1852346A: 1
+  690450A: 1
+======================
+Column: DateNotice
+Type: Text
+Rows: 11805
+Nulls: 0 (0.00%)
+Unique: 11206
+Top values:
+  2004/11/05 00:00:00+00: 7
+  2023/04/10 22:30:00+00: 6
+  2025/02/04 15:41:00+00: 5
+  2004/11/11 00:00:00+00: 5
+  2004/11/08 00:00:00+00: 5
+======================
+Column: DateCancel
+Type: Integer
+Rows: 11805
+Nulls: 11805 (100.00%)
+Unique: 0
+Top values:
+======================
+Column: DateAbate
+Type: Integer
+Rows: 11805
+Nulls: 11805 (100.00%)
+Unique: 0
+Top values:
+======================
+Column: NT
+Type: Text
+Rows: 11805
+Nulls: 0 (0.00%)
+Unique: 1
+Top values:
+  Vacant: 11805
+⚠ Constant column
+⚠ Low cardinality categorical
+======================
+Column: OWNER_ABBR
+Type: Text
+Rows: 11805
+Nulls: 10706 (90.69%)
+Unique: 5
+Top values:
+  MCC: 990
+  HABC: 99
+  USA: 7
+  HUD: 2
+  VA: 1
+⚠ Low cardinality categorical
+======================
+Column: HousingMarketTypology2023
+Type: Text
+Rows: 11805
+Nulls: 18 (0.15%)
+Unique: 10
+Top values:
+  J: 5066
+  I: 4006
+  G: 1292
+  F: 366
+  E: 363
+======================
+Column: Council_District
+Type: Integer
+Rows: 11805
+Nulls: 0 (0.00%)
+Unique: 14
+Min: 1
+Max: 14
+Mean: 9.08310038119441
+Median: 9
+Std Dev: 2.6194056140561806
+Top values:
+  9: 4244
+  7: 1927
+  12: 1478
+  13: 1077
+  6: 948
+======================
+Column: Neighborhood
+Type: Text
+Rows: 11805
+Nulls: 0 (0.00%)
+Unique: 211
+Top values:
+  Carrollton Ridge: 751
+  Broadway East: 725
+  Sandtown-Winchester: 609
+  Harlem Park: 458
+  Oliver: 341
+======================
+Column: BLOCKLOT
+Type: Text
+Rows: 11805
+Nulls: 0 (0.00%)
+Unique: 11805
+Top values:
+  0697 044: 1
+  1467 050: 1
+  3326 004: 1
+  0049 027: 1
+  0242 047: 1
+======================
+Column: Address
+Type: Text
+Rows: 11805
+Nulls: 22 (0.19%)
+Unique: 11783
+Top values:
+  248 N PAYSON ST: 1
+  1149 N FULTON AVE: 1
+  2432 EDMONDSON AVE: 1
+  2615 W FAYETTE ST: 1
+  658 COKESBURY AVE: 1

@@ -1,0 +1,307 @@
+======================
+Column: RowID
+Type: Integer
+Rows: 643410
+Nulls: 0 (0.00%)
+Unique: 643410
+Min: 1
+Max: 644737
+Mean: 322601.875827233
+Median: 322738.5
+Std Dev: 186123.52830876093
+Top values:
+  95063: 1
+  327447: 1
+  567575: 1
+  108795: 1
+  603598: 1
+======================
+Column: CCNumber
+Type: Text
+Rows: 643410
+Nulls: 0 (0.00%)
+Unique: 596519
+Top values:
+  16F02079: 129
+  18L07451: 77
+  23G00322: 58
+  13L10465: 55
+  11F08101: 40
+======================
+Column: CrimeDateTime
+Type: Text
+Rows: 643410
+Nulls: 0 (0.00%)
+Unique: 420253
+Top values:
+  6/5/2016 2:38:00 AM: 129
+  12/20/2018 4:00:00 AM: 77
+  12/25/2013 2:00:00 AM: 59
+  4/27/2015 3:30:00 PM: 44
+  6/16/2011 6:00:00 PM: 42
+======================
+Column: CrimeCode
+Type: Text
+Rows: 643410
+Nulls: 0 (0.00%)
+Unique: 90
+Top values:
+  4E: 118730
+  6D: 74374
+  7A: 59578
+  5A: 49896
+  6J: 35916
+======================
+Column: Description
+Type: Text
+Rows: 643410
+Nulls: 0 (0.00%)
+Unique: 13
+Top values:
+  LARCENY: 143456
+  COMMON ASSAULT: 118730
+  BURGLARY: 83598
+  LARCENY FROM AUTO: 78835
+  AGG. ASSAULT: 74157
+======================
+Column: Inside_Outside
+Type: Text
+Rows: 643410
+Nulls: 599066 (93.11%)
+Unique: 2
+Top values:
+  I: 25125
+  O: 19219
+⚠ Low cardinality categorical
+======================
+Column: Weapon
+Type: Text
+Rows: 643410
+Nulls: 473891 (73.65%)
+Unique: 31
+Top values:
+  FIREARM: 49157
+  OTHER: 32067
+  PERSONAL_WEA: 29558
+  KNIFE: 17110
+  PERSONAL_WEAPONS: 12216
+======================
+Column: Post
+Type: Text
+Rows: 643410
+Nulls: 6909 (1.07%)
+Unique: 149
+Top values:
+  212: 10862
+  114: 10752
+  913: 10734
+  111: 10630
+  214: 9428
+======================
+Column: Gender
+Type: Text
+Rows: 643410
+Nulls: 102924 (16.00%)
+Unique: 3
+Top values:
+  F: 271816
+  M: 256474
+  U: 12196
+⚠ Low cardinality categorical
+======================
+Column: Age
+Type: Integer
+Rows: 643410
+Nulls: 123749 (19.23%)
+Unique: 172
+Min: -7979
+Max: 8251
+Mean: 37.93428793001591
+Median: 35
+Std Dev: 34.54665838618255
+Top values:
+  27: 16440
+  28: 16326
+  29: 16213
+  26: 15993
+  30: 15893
+======================
+Column: Race
+Type: Text
+Rows: 643410
+Nulls: 32481 (5.05%)
+Unique: 6
+Top values:
+  BLACK_OR_AFRICAN_AMERICAN: 339269
+  WHITE: 134753
+  UNKNOWN: 132772
+  ASIAN: 2496
+  AMERICAN_INDIAN_OR_ALASKA_NATIVE: 1018
+⚠ Low cardinality categorical
+======================
+Column: Ethnicity
+Type: Text
+Rows: 643410
+Nulls: 533064 (82.85%)
+Unique: 6
+Top values:
+  NOT_HISPANIC_OR_LATINO: 61107
+  UNKNOWN: 37996
+  HISPANIC_OR_LATINO: 10080
+  MIDDLE_EASTERN: 685
+  EAST_ASIAN: 299
+⚠ Low cardinality categorical
+======================
+Column: Location
+Type: Text
+Rows: 643410
+Nulls: 3282 (0.51%)
+Unique: 25645
+Top values:
+  1500 RUSSELL ST: 1363
+  2400 LIBERTY HEIGHTS AVE: 1253
+  2400 FREDERICK AVE: 1227
+  200 E PRATT ST: 1150
+  3500 BOSTON ST: 1043
+======================
+Column: Old_District
+Type: Text
+Rows: 643410
+Nulls: 6862 (1.07%)
+Unique: 11
+Top values:
+  NORTHEAST: 87203
+  SOUTHEAST: 80427
+  N/A: 70274
+  CENTRAL: 66923
+  SOUTHERN: 63428
+======================
+Column: New_District
+Type: Text
+Rows: 643410
+Nulls: 45 (0.01%)
+Unique: 10
+Top values:
+  N/A: 573136
+  CENTRAL: 10564
+  SOUTHEAST: 9200
+  SOUTHERN: 8348
+  NORTHEAST: 8300
+======================
+Column: Neighborhood
+Type: Text
+Rows: 643410
+Nulls: 7897 (1.23%)
+Unique: 290
+Top values:
+  DOWNTOWN: 22846
+  FRANKFORD: 15273
+  BELAIR-EDISON: 13601
+  BROOKLYN: 11984
+  CANTON: 9488
+======================
+Column: Latitude
+Type: Float
+Rows: 643410
+Nulls: 0 (0.00%)
+Unique: 194906
+Min: -76.65703097880288
+Max: 39.375381017744246
+Mean: 38.90123017654272
+Median: 39.30223158427809
+Std Dev: 3.9802315562399198
+Top values:
+  0: 6622
+  39.318692922502528: 790
+  39.273750734273072: 722
+  39.318478779358131: 716
+  39.284720412693126: 669
+======================
+Column: Longitude
+Type: Float
+Rows: 643410
+Nulls: 0 (0.00%)
+Unique: 198058
+Min: -76.72855798934053
+Max: 39.29696895375025
+Mean: -75.82794849438777
+Median: -76.61353497608263
+Std Dev: 7.739479407938018
+Top values:
+  0: 6622
+  -76.654399892134563: 790
+  -76.627829502652887: 722
+  -76.657370554597534: 716
+  -76.612807440240218: 669
+======================
+Column: GeoLocation
+Type: Text
+Rows: 643410
+Nulls: 0 (0.00%)
+Unique: 204859
+Top values:
+  (0,0): 6622
+  (39.318692922502528,-76.654399892134563): 790
+  (39.273750734273072,-76.627829502652887): 722
+  (39.318478779358131,-76.657370554597534): 716
+  (39.284720412693126,-76.612807440240218): 669
+======================
+Column: PremiseType
+Type: Text
+Rows: 643410
+Nulls: 51805 (8.05%)
+Unique: 133
+Top values:
+  STREET: 228521
+  ROW/TOWNHOUSE-OCC: 97748
+  OTHER/RESIDENTIAL: 57708
+  APT/CONDO - OCCUPIED: 21110
+  OTHER - INSIDE: 17933
+======================
+Column: Total_Incidents
+Type: Integer
+Rows: 643410
+Nulls: 0 (0.00%)
+Unique: 1
+Min: 1
+Max: 1
+Mean: 1
+Median: 1
+Std Dev: 0
+Top values:
+  1: 643410
+⚠ Constant column
+======================
+Column: x
+Type: Float
+Rows: 643410
+Nulls: 0 (0.00%)
+Unique: 196977
+Min: -76.728557989
+Max: 39.2969689540001
+Mean: -75.82794849435639
+Median: -76.613534976
+Std Dev: 7.739479407938074
+Top values:
+  5.6843418860808E-14: 6622
+  -76.654399892: 790
+  -76.627829503: 722
+  -76.6573705549999: 716
+  -76.61280744: 669
+======================
+Column: y
+Type: Float
+Rows: 643410
+Nulls: 0 (0.00%)
+Unique: 193548
+Min: -76.657030979
+Max: 39.375381018
+Mean: 38.90123017654931
+Median: 39.302231584
+Std Dev: 3.9802315562392465
+Top values:
+  5.6843418860808E-14: 6622
+  39.3186929230001: 790
+  39.273750734: 722
+  39.318478779: 716
+  39.2847204130001: 669

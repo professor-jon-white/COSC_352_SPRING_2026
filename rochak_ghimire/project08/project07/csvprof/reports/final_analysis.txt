@@ -1,0 +1,13 @@
+Baltimore Neighborhood Crime vs 911 Calls Analysis
+=================================================
+Neighborhood | Crimes | 911 Calls
+DOWNTOWN | 22846 | 52
+FRANKFORD | 15273 | 17
+BELAIR-EDISON | 13601 | 75
+BROOKLYN | 11984 | 159
+CANTON | 9488 | 19
+SANDTOWN-WINCHESTER | 9015 | 609
+CHERRY HILL | 8920 | 55
+UPTON | 8118 | 263
+FELLS POINT | 7598 | 14
+PATTERSON PARK NEIGHBORHOOD | 7586 | 29
