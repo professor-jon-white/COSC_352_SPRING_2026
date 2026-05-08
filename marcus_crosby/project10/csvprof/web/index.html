@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>csvprof WASM</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">csvprof.wasm</p>
+          <h1>CSV Profiler</h1>
+        </div>
+        <div id="status" class="status" role="status">Loading WASM</div>
+      </header>
+
+      <section class="workspace" aria-label="CSV profiler workspace">
+        <aside class="controls" aria-label="Profiler controls">
+          <div class="field">
+            <label for="fileInput">CSV File</label>
+            <input id="fileInput" type="file" accept=".csv,text/csv">
+          </div>
+
+          <div class="action-row">
+            <button id="sampleButton" type="button">Sample</button>
+            <button id="profileButton" class="primary" type="button">Profile</button>
+          </div>
+
+          <div class="field field-grow">
+            <label for="csvInput">CSV Input</label>
+            <textarea id="csvInput" spellcheck="false"></textarea>
+          </div>
+
+          <div class="option-grid" aria-label="Profiler options">
+            <label>
+              <span>Format</span>
+              <select id="outputFormat">
+                <option value="markdown">Markdown</option>
+                <option value="json">JSON</option>
+              </select>
+            </label>
+
+            <label>
+              <span>Delimiter</span>
+              <input id="delimiter" value="," maxlength="1">
+            </label>
+
+            <label class="check">
+              <input id="hasHeaders" type="checkbox" checked>
+              <span>Headers</span>
+            </label>
+
+            <label>
+              <span>Percentiles</span>
+              <input id="percentiles" value="25,75,90">
+            </label>
+
+            <label>
+              <span>Top Values</span>
+              <input id="topK" type="number" min="1" step="1" value="5">
+            </label>
+
+            <label>
+              <span>Sample Size</span>
+              <input id="sampleSize" type="number" min="32" step="1" value="4096">
+            </label>
+          </div>
+        </aside>
+
+        <section class="results" aria-label="Profile results">
+          <div class="summary-grid">
+            <div>
+              <span>Rows</span>
+              <strong id="rowCount">0</strong>
+            </div>
+            <div>
+              <span>Columns</span>
+              <strong id="columnCount">0</strong>
+            </div>
+            <div>
+              <span>Numeric</span>
+              <strong id="numericCount">0</strong>
+            </div>
+            <div>
+              <span>Null Cells</span>
+              <strong id="nullCount">0</strong>
+            </div>
+          </div>
+
+          <nav class="tabs" role="tablist" aria-label="Result views">
+            <button id="columnsTab" class="active" type="button" role="tab" aria-selected="true" aria-controls="columnsPanel">Columns</button>
+            <button id="reportTab" type="button" role="tab" aria-selected="false" aria-controls="reportPanel">Report</button>
+            <button id="jsonTab" type="button" role="tab" aria-selected="false" aria-controls="jsonPanel">JSON</button>
+          </nav>
+
+          <section id="columnsPanel" class="tab-panel" role="tabpanel" aria-labelledby="columnsTab">
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Column</th>
+                    <th>Type</th>
+                    <th>Nulls</th>
+                    <th>Distinct</th>
+                    <th>Min</th>
+                    <th>Max</th>
+                    <th>Mean</th>
+                    <th>Median</th>
+                    <th>Top Values</th>
+                  </tr>
+                </thead>
+                <tbody id="columnsBody"></tbody>
+              </table>
+            </div>
+          </section>
+
+          <section id="reportPanel" class="tab-panel" role="tabpanel" aria-labelledby="reportTab" hidden>
+            <pre id="renderedReport"></pre>
+          </section>
+
+          <section id="jsonPanel" class="tab-panel" role="tabpanel" aria-labelledby="jsonTab" hidden>
+            <pre id="jsonReport"></pre>
+          </section>
+        </section>
+      </section>
+    </main>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

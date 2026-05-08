@@ -1,0 +1,11 @@
+#[cfg(not(target_arch = "wasm32"))]
+pub mod cli;
+pub mod error;
+#[cfg(not(target_arch = "wasm32"))]
+pub mod plot;
+pub mod profiler;
+pub mod report;
+pub mod stats;
+pub mod types;
+#[cfg(target_arch = "wasm32")]
+pub mod wasm;

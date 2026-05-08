@@ -1,0 +1,150 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="0" width="1200" height="800" opacity="1" fill="#FFFFFF" stroke="none"/>
+<text x="600" y="29" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="22.580645161290324" opacity="1" fill="#000000">
+Top neighborhoods by crime events
+</text>
+<text x="24" y="306" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="11.290322580645162" opacity="1" fill="#000000" transform="rotate(270, 24, 306)">
+crime_events
+</text>
+<text x="636" y="776" dy="-0.5ex" text-anchor="middle" font-family="sans-serif" font-size="11.290322580645162" opacity="1" fill="#000000">
+neighborhood
+</text>
+<polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="95,56 95,555 "/>
+<text x="86" y="521" dy="0.5ex" text-anchor="end" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
+0.0
+</text>
+<polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="90,521 95,521 "/>
+<text x="86" y="463" dy="0.5ex" text-anchor="end" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
+1000.0
+</text>
+<polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="90,463 95,463 "/>
+<text x="86" y="405" dy="0.5ex" text-anchor="end" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
+2000.0
+</text>
+<polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="90,405 95,405 "/>
+<text x="86" y="346" dy="0.5ex" text-anchor="end" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
+3000.0
+</text>
+<polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="90,346 95,346 "/>
+<text x="86" y="288" dy="0.5ex" text-anchor="end" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
+4000.0
+</text>
+<polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="90,288 95,288 "/>
+<text x="86" y="230" dy="0.5ex" text-anchor="end" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
+5000.0
+</text>
+<polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="90,230 95,230 "/>
+<text x="86" y="172" dy="0.5ex" text-anchor="end" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
+6000.0
+</text>
+<polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="90,172 95,172 "/>
+<text x="86" y="114" dy="0.5ex" text-anchor="end" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
+7000.0
+</text>
+<polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="90,114 95,114 "/>
+<polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="96,556 1175,556 "/>
+<text x="96" y="566" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="11.290322580645162" opacity="1" fill="#000000" transform="rotate(90, 96, 566)">
+Downtown
+</text>
+<polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="96,556 96,561 "/>
+<text x="149" y="566" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="11.290322580645162" opacity="1" fill="#000000" transform="rotate(90, 149, 566)">
+Frankford
+</text>
+<polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="149,556 149,561 "/>
+<text x="203" y="566" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="11.290322580645162" opacity="1" fill="#000000" transform="rotate(90, 203, 566)">
+Belair-Edison
+</text>
+<polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="203,556 203,561 "/>
+<text x="257" y="566" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="11.290322580645162" opacity="1" fill="#000000" transform="rotate(90, 257, 566)">
+Brooklyn
+</text>
+<polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="257,556 257,561 "/>
+<text x="311" y="566" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="11.290322580645162" opacity="1" fill="#000000" transform="rotate(90, 311, 566)">
+Canton
+</text>
+<polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="311,556 311,561 "/>
+<text x="365" y="566" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="11.290322580645162" opacity="1" fill="#000000" transform="rotate(90, 365, 566)">
+Cherry Hill
+</text>
+<polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="365,556 365,561 "/>
+<text x="419" y="566" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="11.290322580645162" opacity="1" fill="#000000" transform="rotate(90, 419, 566)">
+INNER HARBOR
+</text>
+<polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="419,556 419,561 "/>
+<text x="473" y="566" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="11.290322580645162" opacity="1" fill="#000000" transform="rotate(90, 473, 566)">
+Sandtown-Winchester
+</text>
+<polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="473,556 473,561 "/>
+<text x="527" y="566" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="11.290322580645162" opacity="1" fill="#000000" transform="rotate(90, 527, 566)">
+Patterson Park Neighborhood
+</text>
+<polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="527,556 527,561 "/>
+<text x="581" y="566" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="11.290322580645162" opacity="1" fill="#000000" transform="rotate(90, 581, 566)">
+Mount Vernon
+</text>
+<polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="581,556 581,561 "/>
+<text x="635" y="566" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="11.290322580645162" opacity="1" fill="#000000" transform="rotate(90, 635, 566)">
+Washington Village/Pigtown
+</text>
+<polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="635,556 635,561 "/>
+<text x="689" y="566" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="11.290322580645162" opacity="1" fill="#000000" transform="rotate(90, 689, 566)">
+Upton
+</text>
+<polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="689,556 689,561 "/>
+<text x="743" y="566" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="11.290322580645162" opacity="1" fill="#000000" transform="rotate(90, 743, 566)">
+Hampden
+</text>
+<polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="743,556 743,561 "/>
+<text x="797" y="566" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="11.290322580645162" opacity="1" fill="#000000" transform="rotate(90, 797, 566)">
+Fells Point
+</text>
+<polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="797,556 797,561 "/>
+<text x="851" y="566" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="11.290322580645162" opacity="1" fill="#000000" transform="rotate(90, 851, 566)">
+Central Park Heights
+</text>
+<polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="851,556 851,561 "/>
+<text x="905" y="566" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="11.290322580645162" opacity="1" fill="#000000" transform="rotate(90, 905, 566)">
+Hamilton Hills
+</text>
+<polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="905,556 905,561 "/>
+<text x="959" y="566" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="11.290322580645162" opacity="1" fill="#000000" transform="rotate(90, 959, 566)">
+Coldstream Homestead Montebello
+</text>
+<polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="959,556 959,561 "/>
+<text x="1013" y="566" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="11.290322580645162" opacity="1" fill="#000000" transform="rotate(90, 1013, 566)">
+Mondawmin
+</text>
+<polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="1013,556 1013,561 "/>
+<text x="1067" y="566" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="11.290322580645162" opacity="1" fill="#000000" transform="rotate(90, 1067, 566)">
+Oliver
+</text>
+<polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="1067,556 1067,561 "/>
+<text x="1121" y="566" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="11.290322580645162" opacity="1" fill="#000000" transform="rotate(90, 1121, 566)">
+Mid-Town Belvedere
+</text>
+<polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="1121,556 1121,561 "/>
+<text x="1175" y="566" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="11.290322580645162" opacity="1" fill="#000000" transform="rotate(90, 1175, 566)">
+Mid-Town Belvedere
+</text>
+<polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="1175,556 1175,561 "/>
+<rect x="96" y="91" width="53" height="430" opacity="1" fill="#2563EB" stroke="none"/>
+<rect x="149" y="246" width="54" height="275" opacity="1" fill="#2563EB" stroke="none"/>
+<rect x="203" y="272" width="54" height="249" opacity="1" fill="#2563EB" stroke="none"/>
+<rect x="257" y="295" width="54" height="226" opacity="1" fill="#2563EB" stroke="none"/>
+<rect x="311" y="334" width="54" height="187" opacity="1" fill="#2563EB" stroke="none"/>
+<rect x="365" y="354" width="54" height="167" opacity="1" fill="#2563EB" stroke="none"/>
+<rect x="419" y="376" width="54" height="145" opacity="1" fill="#2563EB" stroke="none"/>
+<rect x="473" y="378" width="54" height="143" opacity="1" fill="#2563EB" stroke="none"/>
+<rect x="527" y="383" width="54" height="138" opacity="1" fill="#2563EB" stroke="none"/>
+<rect x="581" y="384" width="54" height="137" opacity="1" fill="#2563EB" stroke="none"/>
+<rect x="635" y="387" width="54" height="134" opacity="1" fill="#2563EB" stroke="none"/>
+<rect x="689" y="387" width="54" height="134" opacity="1" fill="#2563EB" stroke="none"/>
+<rect x="743" y="387" width="54" height="134" opacity="1" fill="#2563EB" stroke="none"/>
+<rect x="797" y="390" width="54" height="131" opacity="1" fill="#2563EB" stroke="none"/>
+<rect x="851" y="408" width="54" height="113" opacity="1" fill="#2563EB" stroke="none"/>
+<rect x="905" y="410" width="54" height="111" opacity="1" fill="#2563EB" stroke="none"/>
+<rect x="959" y="411" width="54" height="110" opacity="1" fill="#2563EB" stroke="none"/>
+<rect x="1013" y="412" width="54" height="109" opacity="1" fill="#2563EB" stroke="none"/>
+<rect x="1067" y="418" width="54" height="103" opacity="1" fill="#2563EB" stroke="none"/>
+<rect x="1121" y="421" width="54" height="100" opacity="1" fill="#2563EB" stroke="none"/>
+</svg>
