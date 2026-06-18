@@ -1,3 +1,9 @@
+# Project 6 - Baltimore Homicide Dashboard
+
+## How to Run
+
+```bash
+./run_dashboard.sh
 # Project 06 - Baltimore Homicide Shiny Dashboard
 
 ## Overview

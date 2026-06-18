@@ -1,3 +1,12 @@
+FROM --platform=linux/amd64 rocker/shiny:latest
+
+RUN R -e "install.packages(c('shiny','dplyr','ggplot2'), repos='https://cloud.r-project.org/')"
+
+COPY . /srv/shiny-server/
+
+EXPOSE 3838
+
+CMD ["/init"]
 FROM r-base:4.4.2
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
